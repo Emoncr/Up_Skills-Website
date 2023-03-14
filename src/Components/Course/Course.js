@@ -18,7 +18,7 @@ const Course = (props) => {
                   <div className="colum courses">
                     <h3>{d['course-name']}</h3>
                     <p> <strong> Mentor_Name: {d['mentor-name']}</strong></p>
-                    <p><strong>Price: {d.price}</strong></p>
+                    <p><strong>Price: ${d.price}</strong></p>
                     <button onClick={()=>props.setItem([...props.item,d])}  className='btn btn-success'>Enroll Now<i class="fa-solid fa-arrow-right"></i></button>
                   </div>
                 )
