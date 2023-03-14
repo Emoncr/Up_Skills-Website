@@ -1,0 +1,50 @@
+.colum{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F8F4F4;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #4C4C4C ;
+}
+.row{
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fa-solid{
+    font-weight: 600;
+    margin-left: 6px;
+}
+.courses{
+    width: 32%;
+}
+.heading{
+    text-align: center;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 992px) {
+    .courses{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .courses{
+        width: 48%;
+    }
+  }
+@media only screen and  (max-width: 480px) {
+    .courses{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .courses{
+        width: 100%;
+    }
+  }
+  

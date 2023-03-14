@@ -1,0 +1,25 @@
+.cart{
+   margin: 20px 0;
+   display: flex;
+   gap: 5px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-start;
+}
+.fa-check{
+   text-align: center;
+   color: #198754;
+}
+
+@media only screen and (max-width: 768px) {
+   .cart{
+      justify-content: center;
+   }
+ }
+
+@media only screen and  (max-width: 480px) {
+   .cart{
+      justify-content: center;
+   }
+ }
+
